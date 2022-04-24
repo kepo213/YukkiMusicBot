@@ -1,3 +1,4 @@
+FROM ubuntu-latest
 FROM nikolaik/python-nodejs:python3.10-nodejs18
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
