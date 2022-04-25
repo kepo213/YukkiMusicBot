@@ -17,7 +17,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 class PornhubAPI:
     def __init__(self):
-        self.regex = r"^(https:\/\/www.xnxx.com\/)(.*)$"
+        self.regex = r"^(https:\/\/xnxx.com\/)(.*)$"
         self.base = "https://xnxx.com/"
 
     async def valid(self, link: str):
