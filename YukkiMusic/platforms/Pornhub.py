@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from youtubesearchpython.__future__ import VideosSearch
 
 
-class RessoAPI:
+class PornhubAPI:
     def __init__(self):
         self.regex = r"^(https:\/\/pornhub.com\/)(.*)$"
         self.base = "https://pornhub.com/"
