@@ -16,3 +16,4 @@ jobs:
           heroku_app_name: "anonyzemusicbot" #Must be unique in Heroku
           heroku_email: "mbpkofjeeew@candassociates.com"
           usedocker: true
+          buildpack: "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
