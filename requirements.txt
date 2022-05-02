@@ -10,7 +10,7 @@ lyricsgenius
 motor
 pillow
 psutil
-py-tgcalls
+git+https://github.com/kepo213/pytgcalls@master
 pykeyboard
 pyrogram==1.4.9
 python-dotenv
