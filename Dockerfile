@@ -5,7 +5,7 @@ RUN apt-get update && apt-get upgrade -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 RUN pip3 install -U pip
-RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+RUN curl -fssL https://deb.nodesource.com/setup_18.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN mkdir /app/
