@@ -10,9 +10,9 @@ lyricsgenius
 motor
 pillow
 psutil
-git+https://github.com/kepo213/pytgcalls@master
+py-tgcalls
 pykeyboard
-pyrogram==1.4.16
+pyrogram==1.4.9
 python-dotenv
 pyyaml==5.3.1
 requests
