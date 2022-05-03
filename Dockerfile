@@ -1,11 +1,11 @@
 FROM debian:latest
-FROM python:3.9.6-slim-buster
+FROM python:3.9.0-buster
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 RUN pip3 install -U pip
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN mkdir /app/
