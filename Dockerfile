@@ -1,6 +1,6 @@
 FROM debian:latest
 FROM python:3.9.12-buster
-RUN apt-get update \
+RUN apt-get update && apt-get upgrade \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
